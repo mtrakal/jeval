@@ -1,0 +1,13 @@
+JEval CHANGELOG
+http://jeval.sourceforge.net
+--------------------
+
+Changes in version 0.9.4 (beta)
+------------------------------------
+
+1.  Fixed bug #2142824. Since JEval uses optimized parsing, this bug caused 
+    functions never to pick up new variable values.
+2.  Fixed a few compile errors that existed in the unit tests.
+3.  Added a new unit test to test bug #2142824.
+4.  Added a new unit test to test nested functions and variables at the same
+    time.
