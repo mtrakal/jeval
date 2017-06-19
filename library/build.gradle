@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+version '0.9.4'
+
+sourceCompatibility = 1.8
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
